@@ -1,0 +1,11 @@
+{
+  // Nom du Worker : l'adresse sera https://partage-addition.<ton-compte>.workers.dev
+  "name": "partage-addition",
+  "main": "src/worker.js",
+  "compatibility_date": "2026-11-01",
+  "durable_objects": {
+    "bindings": [{ "name": "ADDITION", "class_name": "Addition" }]
+  },
+  // Durable Object en SQLite : c'est ce qui le rend gratuit sur l'offre Workers Free.
+  "migrations": [{ "tag": "v1", "new_sqlite_classes": ["Addition"] }]
+}

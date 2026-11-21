@@ -1,0 +1,25 @@
+{
+  "titre": "Le Petit Bistro",
+  "date": "2026-11-21",
+  "personnes": 6,
+  "devise": "EUR",
+  "langue": "fr",
+  "payeur": "Alex",
+  "paiements": [
+    { "nom": "Lydia, Wero ou PayPal", "lien": "https://exemple.com/remplace-moi" },
+    { "nom": "IBAN", "texte": "FR76 0000 0000 0000 0000 0000 000" }
+  ],
+  "lignes": [
+    { "nom": "Eau gazeuse 75 cl", "quantite": 2, "prix": 4.5 },
+    { "nom": "Verre de vin rouge", "quantite": 3, "prix": 5.5 },
+    { "nom": "Pinte de bière", "quantite": 2, "prix": 6 },
+    { "nom": "Planche mixte", "quantite": 1, "prix": 18 },
+    { "nom": "Burger maison", "quantite": 2, "prix": 16.5 },
+    { "nom": "Salade César", "quantite": 1, "prix": 14 },
+    { "nom": "Tartare de bœuf", "quantite": 1, "prix": 17.5 },
+    { "nom": "Frites (portion)", "quantite": 2, "prix": 4 },
+    { "nom": "Café", "quantite": 4, "prix": 2.2 },
+    { "nom": "Tiramisu", "quantite": 2, "prix": 7 }
+  ],
+  "total_ticket": 150.8
+}

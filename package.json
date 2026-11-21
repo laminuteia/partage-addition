@@ -1,0 +1,18 @@
+{
+  "name": "partage-addition",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Partage l'addition du resto : chacun coche ce qu'il a pris et voit ce qu'il doit.",
+  "type": "module",
+  "scripts": {
+    "verifier": "node verifier.mjs",
+    "dev": "wrangler dev",
+    "deploy": "node verifier.mjs && wrangler deploy",
+    "qr": "qrcode-terminal"
+  },
+  "devDependencies": {
+    "qrcode-terminal": "^0.12.0",
+    "wrangler": "^4.166.0"
+  },
+  "license": "MIT"
+}
