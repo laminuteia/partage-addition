@@ -91,6 +91,29 @@ L'appli obtenue change un peu à chaque fois. Ce dépôt, c'est une version prop
 
 ---
 
+## Bonus : piloter Claude Code depuis ton téléphone
+
+C'est ce que j'ai fait au resto. Claude Code tournait sur mon ordi, et je lui parlais depuis mon téléphone. J'ai même envoyé la photo du ticket depuis la table.
+
+Il te faut :
+
+- un abonnement Claude (Pro ou plus). Ça ne marche pas avec une clé API ;
+- l'appli Claude sur ton téléphone (iPhone ou Android), avec le même compte ;
+- ton ordi allumé, avec le terminal ouvert.
+
+1. Sur l'ordi, ouvre un terminal dans ton dossier et tape `claude`.
+2. Dans Claude Code, tape `/remote-control`. Un QR code s'affiche.
+3. Scanne-le avec ton téléphone. Tu peux aussi ouvrir l'appli Claude, toucher **Code**, puis ta session : elle a une icône d'ordi avec un point vert.
+4. C'est prêt. Tu écris depuis le téléphone, tu peux envoyer une photo, et tout tourne sur ton ordi.
+
+Bon à savoir :
+
+- Si tu fermes le terminal, la session se coupe. Si l'ordi se met en veille, elle revient toute seule au réveil.
+- Ton ordi n'ouvre aucune porte vers l'extérieur : tout passe par les serveurs d'Anthropic, en connexion chiffrée.
+- La doc officielle : [code.claude.com/docs/en/remote-control](https://code.claude.com/docs/en/remote-control)
+
+---
+
 ## Comment ça marche
 
 - `addition.json` : ton ticket. C'est le seul fichier à modifier.
